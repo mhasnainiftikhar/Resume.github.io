@@ -1,77 +1,71 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding-left: 400px;
-    width: 700px;
-    height: 1500px;
-  }
-  .cv-profile {
-    max-width: 200px; 
-    max-height: 200px; 
-    overflow: hidden; 
-border-radius: 50%;
-  }
-  
-  .cv-profile img {
-    width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-    
-  }
-  
-  
-  h1 {
-    color: #0c0202;
-    text-align: center;
-    text-decoration: underline;
-    background-color: #555;
-    font-weight: 900;
-  }
-  
-  h2 {
-    color: #555;
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-decoration: underline;
-    background-color: aqua;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  p {
-    margin-bottom: 10px;
-  }
-  
-  strong {
-    font-weight:900;
-  }
-  
-  ul {
-    margin-top: 200;
-    padding-left: 60px;
-  }
-  
-  li {
-    margin-bottom: 15px;
-  }
-  
-  a {
-    color: #007bff;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .container {
-    mix-blend-mode: difference;
-    color: rgb(255, 255, 255);
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0c0202;
+  text-align: center;
+  text-decoration: underline;
+  background-color: #555;
+  font-weight: 900;
+}
+
+.profile-container {
+  text-align: center;
+}
+
+.cv-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.cv-profile:hover {
+  transform: scale(1.5);
+}
+
+.info-heading {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  background-color: aqua;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none;
+}
